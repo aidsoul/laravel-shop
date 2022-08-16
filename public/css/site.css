@@ -1,0 +1,56 @@
+.list-item .card-header {
+    min-height: 4rem;
+}
+    .list-item .card-header h3 {
+        font-size: 1.1rem;
+    }
+
+#catalog-sidebar, #brands-popular {
+    list-style: none;
+    padding-left: 0;
+}
+    #catalog-sidebar ul {
+        list-style: none;
+        padding-left: 1rem;
+    }
+    #catalog-sidebar > ul {
+        padding-left: 0;
+    }
+        #catalog-sidebar li {
+            position: relative;
+        }
+        #catalog-sidebar a {
+            display: inline-block;
+            margin-right: 1.2rem;
+        }
+    #catalog-sidebar .badge {
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+
+
+.show-hide{
+    pointer-events:none;
+}
+
+.card-border-none{
+    border: none;
+    box-shadow: 0px 3px 0px 0px rgba(34, 60, 80, 0.2);
+}
+/*
+    Footer
+*/
+.footer-new{
+background: #f8fafc;
+}
+.footer-item-social-network-vk-img{
+    max-width: 1.875rem;
+    width: 100%;
+    max-height: 1.875rem;
+    height: 100%;
+}
+.footer-item-social-network-vk-img:hover{  
+    fill: #1a58af;
+}  
